@@ -10,14 +10,15 @@ import javax.persistence.GenerationType;
 import javax.persistence.Id;
 
 @Data
-@Entity
 @NoArgsConstructor
 @AllArgsConstructor
-public class User {
+@Entity
+public class Currency {
     @Id
-    @GeneratedValue(strategy = GenerationType.IDENTITY)
+    @GeneratedValue (strategy = GenerationType.IDENTITY)
     private Integer id;
-    private String firstName;
-    private String lastName;
+    private String name;
+
+    private boolean active;
 
 }

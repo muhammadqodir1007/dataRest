@@ -10,14 +10,13 @@ import javax.persistence.GenerationType;
 import javax.persistence.Id;
 
 @Data
-@Entity
 @NoArgsConstructor
 @AllArgsConstructor
-public class User {
+@Entity
+public class Output {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
+
     private Integer id;
-    private String firstName;
-    private String lastName;
 
 }
