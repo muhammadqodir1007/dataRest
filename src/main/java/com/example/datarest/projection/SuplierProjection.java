@@ -4,7 +4,7 @@ import com.example.datarest.entity.Category;
 import org.springframework.data.rest.core.config.Projection;
 
 @Projection(types = Category.class)
-public interface CategoryProjection {
+public interface SuplierProjection {
 
     int getId();
 
